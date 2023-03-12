@@ -13,7 +13,7 @@ const DirectoryItem = ({ category }) => {
 			/>
 			<div className="directory-item-body">
 				<h2>
-					<Link to={title}>{title}</Link>
+					<Link to={`/shop/${title}`}>{title} </Link>
 				</h2>
 				<p>Shop Now</p>
 			</div>
